@@ -2,6 +2,8 @@ from keras.datasets import mnist
 import keras
 from keras import layers
 
+# beginning of section 2.1
+
 # listing 2.1 Loading the MNIST dataset in Keras
 
 (train_images, train_labels), (test_images, test_labels) = mnist.load_data()
@@ -42,3 +44,6 @@ print('test_labels[0]:', test_labels[0])
 # listing 2.7 evaluating the model on new data
 test_loss, test_acc = model.evaluate(test_images, test_labels)
 print(f"test_acc: {test_acc}")
+
+# ending of section 2.1
+
