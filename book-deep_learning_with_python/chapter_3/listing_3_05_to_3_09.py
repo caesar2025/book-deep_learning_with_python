@@ -29,16 +29,10 @@ b = tf.square(a)
 c = tf.sqrt(a)
 d = b+c
 e = tf.matmul(a, b) # TODO: matrix multiplication
-print(f'''a:
-{a}
-b:
-{b}
-c:
-{c}
-d:
-{d}
-e:
-{e}
-''')
+print(f'''a:\n{a}
+b:\n{b}
+c:\n{c}
+d:\n{d}
+e:\n{e}''')
 e *= d
 print('e:', e)
